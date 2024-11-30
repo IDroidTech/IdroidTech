@@ -1,10 +1,19 @@
-import './App.css'
+import Header from "./components/header.tsx";
+import About from "./components/about.tsx";
+import Portfolio from "./components/portfolio.tsx";
+import Contact from "./components/contact.tsx";
+import Footer from "./components/footer.tsx";
+
 
 function App() {
 
   return (
     <>
-      <h1>Hello World!!</h1>
+        <Header />
+        <About />
+        <Portfolio />
+        <Contact />
+        <Footer />
     </>
   )
 }
