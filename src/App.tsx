@@ -1,5 +1,3 @@
-import { SpeedInsights } from "@vercel/speed-insights/next"
-
 import Header from "./components/header.tsx";
 import About from "./components/about.tsx";
 import Portfolio from "./components/portfolio.tsx";
@@ -16,7 +14,6 @@ function App() {
         <Portfolio />
         <Contact />
         <Footer />
-        < SpeedInsights />
     </>
   )
 }
